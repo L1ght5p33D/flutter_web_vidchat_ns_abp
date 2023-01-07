@@ -4,12 +4,12 @@ import 'dart:ui' as ui;
 import 'package:ns_fw_room_login/main.dart';
 import 'package:ns_fw_room_login/gstyles.dart';
 
-class Vid_Portal extends StatefulWidget {
+class Vid_Web_Element extends StatefulWidget {
   @override
-  _Vid_PortalState createState() => _Vid_PortalState();
+  _Vid_Web_ElementState createState() => _Vid_Web_ElementState();
 }
 
-class _Vid_PortalState extends State<Vid_Portal> {
+class _Vid_Web_ElementState extends State<Vid_Web_Element> {
   initState() {
     // platformViewRegistry not defined in js, still compiles fine
 

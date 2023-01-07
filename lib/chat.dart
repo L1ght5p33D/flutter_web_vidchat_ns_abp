@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'dart:convert';
 import 'package:web_socket_channel/html.dart';
 import 'package:ns_fw_room_login/url_conf.dart';
-import 'vid_portal.dart';
+import 'vid_web_element.dart';
 import 'state_user.dart';
 import 'state_room.dart';
 import 'package:ns_fw_room_login/gstyles.dart';
@@ -133,7 +133,7 @@ class _ChatScreenState extends State<ChatScreen> {
               Container(
                 height: g_win_size!.height * .1,
               ),
-              Vid_Portal(),
+              Vid_Web_Element(),
               Container(
                 height: g_win_size!.height * .1,
               )
